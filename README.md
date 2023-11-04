@@ -20,14 +20,14 @@ This contract serves as a foundation for managing a token system. Key uses inclu
 
 ## Functions
 
-### `mint(address account, uint256 value)`
+### `mint(address account, uint value)`
 
 - **Description**: Mints tokens to a specified account.
 - **Parameters**:
   - `account`: Address to receive the minted tokens.
   - `value`: Amount of tokens to mint.
 
-### `burn(address account, uint256 value)`
+### `burn(address account, uint value)`
 
 - **Description**: Burns tokens from a specified account.
 - **Parameters**:
